@@ -1,5 +1,6 @@
 \documentclass{simplecv}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{hyperref}
 \usepackage{url}
@@ -7,93 +8,88 @@
 \begin{document}
 
 \leftheader{+34 682 39 81 69\\
-\texttt{martinez.javier@gmail.com}}
+\texttt{martinez.javier@gmail.com}\\
+\texttt{Avinguda de la Rca Argentina 261 5-2, 08023, Barcelona, Spain}}
 
-%\lefttheader{Avinguda de la Republica Argentina 261 5-2, Barcelona, Spain\\
-%\texttt{\small \url{http://martinezjavier.wordpress.com}}
-%}
-
-\title{Javier Martínez Canillas}
+\title{Javier Martinez Canillas}
 
 \maketitle
 
 \section{Summary}
 
-I'm an open-source enthusiast software engineer with experience working on different layers of the software stack.
+I'm a software engineer with experience working on different layers of the Linux software stack,
+ranging from the kernel to user-space applications.\\
 
-\section{Interests}
+Also, I'm an open-source enthusiast that contributes to many open source projects specially the
+Linux kernel where I maintain a couple of components (https://www.openhub.net/accounts/martinezjavier).
 
-Software engineering, Linux user-space and kernel development, device drivers, Linux systems administration.
+\section{Specialties}
+
+Software engineering, Linux user-space and kernel development, System integration, Packaging.
 
 \section{Education}
 
 \begin{topic}
 
-\item[2010 - 2011] {\bf Master of Science (M.Sc.), High Performance Computing} - Universitat Autónoma de Barcelona, Bellaterra, Spain. 
+\item[2010 - 2011] {\bf Master of Science (M.Sc.), High Performance Computing} - Universitat AutÃ³noma de Barcelona, Bellaterra, Spain. 
 
 {\bf Thesis:} \emph{Including the Workload Effect in the Parallel Program Signature}. 
 
 Advisor: Prof. Emilio Luque.
 
-\item[2002 - 2008] {\bf Bachelor of Science (B.Sc.), Informatics Engineering} - Catholic University "Nuestra Señora de la Asunción", Asunción, Paraguay. 
+\item[2002 - 2008] {\bf Bachelor of Science (B.Sc.), Informatics Engineering} - Catholic University "Nuestra SeÃ±ora de la AsunciÃ³n", AsunciÃ³n, Paraguay. 
 
 {\bf Thesis:} \emph{A new approach to solve Multi-Objective Evolutionary Optimization Problems using Linear Genetic Programming}. 
 
-Advisor: Prof. Benjamín Barán.
+Advisor: Prof. BenjamÃ­n BarÃ¡n.
 
 \end{topic}
 
 \section{Awards and Honors}
 
-PIF-UAB predoctoral scholarship for Master of Science studies at Universitat Autónoma de Barcelona.
+PIF-UAB predoctoral scholarship for Master of Science studies at Universitat AutÃ³noma de Barcelona.
 
 \section{Professional Experience}
 
 \begin{topic}
 
-\item[January 2012 - Present] \emph{Software Engineer} - Collabora (\url{http://www.collabora.co.uk}): Open source consulting firm.
+\item[January 2012 - Present] \emph{Senior Software Engineer} - Collabora (\url{http://www.collabora.co.uk})
 
-Working on improving the Desktop Bus (D-Bus) inter-process communication system.
+\begin{itemize}
 
-Development of a new socket address family for the Linux platform.
+\item Helped customers to upstream their Linux kernel platform support, work close to mainline and reduce their maintenance burden.
 
-Platform: Linux.
+\item Developed customer specific Linux distributions using the OpenEmbedded/BitBake build system and Debian/Ubuntu derivatives using Debian packaging and the Open Build Service (OBS).
 
-Technologies: C, Kernel Build System (Kbuild), Git.
+\item Improved the Desktop Bus (D-Bus) inter-process communication system performance by developing a new socket address family (AF\_BUS) for multicast communications on Linux.
+
+\end{itemize}
 
 Repository: \url{http://cgit.collabora.com/git/user/javier}
 
 \item[September 2011 - January 2012] \emph{Linux Kernel Engineer} - ISEE (\url{http://www.isee.biz}): Embedded systems manufacturer.
 
-Linux Kernel and bootloader (X-loader and U-boot) porting, customization and device drivers development for custom ARM OMAP3 (Cortex-A8) System-on-Chip boards. 
+\begin{itemize}
 
-Platform: Linux on ARM TI OMAP3 (Cortex-A8).
+\item Linux kernel device drivers and bootloader (X-loader and U-boot) development for custom ARM OMAP3 (Cortex-A8) based boards.
 
-Technologies: C, Kernel Build System (Kbuild), Git.
+\end{itemize}
 
 Repository: \url{http://git.igep.es/}
 
-\item[October 2010 - August 2011] \emph{M.Sc. Student, Professor and Researcher} - Computer Architecture and Operating System department, Universitat Autónoma de Barcelona.
+\item[October 2010 - August 2011] \emph{M.Sc. Student, Professor and Researcher} - Computer Architecture and Operating System department, Universitat AutÃ³noma de Barcelona.
 
-Design and implementation of a parallel application performance analysis and prediction tool.
+\begin{itemize}
 
-Doing research to improve the tool accuracy.
+\item Design and implementation of a parallel application performance analysis and prediction tool.
 
-Teaching assistant for the course ``Electronic systems design based on microcontrollers''.
+\item Doing research to improve the tool accuracy.
 
-Platform: Linux clusters
+\item Teaching assistant for the course ``Electronic systems design based on microcontrollers''.
 
-Technologies: C/C++, MPI, GNU Build System (Autotools), GTK.
+\end{itemize}
 
-\item[November 2009 - September 2010] \emph{Software Engineer} - TDI S.A. (\url{http://tdi.com.py}): Software factory.
-
-Designed and developed an enterprise resource planning for a distribution company and a portal solution for a non-governmental organization.
-
-Platform: Java Enterprise Edition 6 and Liferary.
-
-Technologies: Java Enterprise Edition development consulting: Glassfish, Java Server Faces 2.0, Enterprise Java Beans 3.1, Java Persistence API 2.0, JAX-WS, JAX-RS, Facelets, JasperReports, Jboss, Liferay, Jboss Seam, Facelets.
-
-\item[July 2009 - September 2010] Professor and Researcher  - Computer Engineering, Polytechnic Faculty, National University of Asunción.
+\item[July 2009 - September 2010] Professor and Researcher  - Computer Engineering, Polytechnic Faculty, National University of AsunciÃ³n.
 
 \begin{itemize}
 
@@ -103,51 +99,11 @@ Repository: \url{https://github.com/martinezjavier/ldd3}
 
 \item Developed a sniffer as a kernel module using the kernel's protocol handler (\emph{struct packet\_type}) kernel infrastructure to help students understand packet reception.
 
-%Repository: \url{https://github.com/martinezjavier/ksniffer}
-
 \item Developed a firewall as a kernel module using netfilter register hooks API (\emph{struct nf\_hook\_ops}) to help students understand data structures used by the kernel to store frames (\emph{struct sk\_buff}) and headers (\emph{struct iphdr, struct tcphdr, struct ethhdr}).
 
-%Repository: \url{https://github.com/martinezjavier/kfirewall}
-
 \end{itemize}
-
-\item [December 2008 - October 2009] \emph{Software Engineer} - Tabacos del Paraguay S.A. (\url{http://www.tabacosdelparaguay.com}): Cigarettes distribution company.
-
-Designed and built a data warehouse and geographic information system.
-
-Platform: Microsoft business intelligence and Pentaho.
-
-Technologies: Pentaho Data Integration (Kettle), Pentaho Analysis (Mondrian), Pentaho Reporting, Pentaho BI Server, MS Integration Services, MS Analysis Services, MapServer, GeoServer, Postgresql, Postgis, MySQL Spatial Extensions, OpenLayers, Mapfish, Google Maps API. 
-
-\item [May 2008 - November 2008] \emph{Software Engineer} - Telecom Personal Paraguay (\url{http://www.personal.com.py}): Cell phone and internet service provider.
-
-Designed and developed an enterprise mobile application suite and location based services.
-
-Platform: Microsoft .Net and Gemalto.
-
-Technologies: j2me, Gemalto SAT, $C\sharp$, ASP .Net, jQuery, Windows Services, MS SQL Server, Google Maps API, jQuery.
-
-\item [March 2005 - May 2008] \emph{Developer and System Administrator} - Simeic (\url{http://www.simeic.com}): Consulting company.
-
-Enterprise resource planning software development and Linux system administration.
-
-Platform: Linux and Mono.
-
-Technologies: $C\sharp$, GTK, PHP, Mysql, Apache, Bind, Samba, Postfix, Squid, Jabber, Iptables/Netfilter.
 
 \end{topic}
-
-\section{Technical skills}
-
-\begin{itemize}
-
-\item Languages: C, Bash, Python, Java, $C\sharp$, Javascript, PHP, SQL.
-
-\item Frameworks: GTK, GNU toolchain, Kernel Build System (Kbuild).
-
-\item Operating Systems: Linux (kernel development, porting and device drivers).
-
-\end{itemize}
 
 \section{Open source contributions}
 
@@ -155,54 +111,33 @@ Technologies: $C\sharp$, GTK, PHP, Mysql, Apache, Bind, Samba, Postfix, Squid, J
 
 \item[May 2010 - Present] \emph{Kernel hacker} - Linux kernel (\url{http://git.kernel.org})
 
-Kernel janitor with contributions to ARM architecture, usb, network, media and input subsystems.
+Mainline maintainer of the OMAP3 IGEP embedded board family and the TI OMAP GPIO driver.
 
-Upstream maintainer of the Cypress TrueTouch Gen3 touchscreen driver. 
-
-\url{http://www.ohloh.net/accounts/martinezjavier}
+\url{https://www.openhub.net/accounts/martinezjavier}
 
 \end{topic}
 
-%\section{Publications in Refereed Journals}
-
-%\begin{thebibliography}{10}
-
-%\end{thebibliography}
-
-\section{Publications in Refereed Conferences}
+\section{Publications in Journals and Conferences}
 
 \begin{thebibliography}{10}
 
 \footnotesize
 
-\bibitem{mar08b}
-R. Sánchez, J. Martinez, B. Barán. \emph{Macro-Economic Time-Series Forecasting Using Linear Genetic Programming}, $11^{th}$ Joint Conference on Information Sciences, Dec 15-20, 2008, China. 
-
-\bibitem{mar08a}
-Javier Martinez Canillas, Roberto Sánchez, Benjamín Barán. \emph{Estimation Models Generation using Linear Genetic Programming}. CLEI Electronic Journal Volume 12 Number 3, December 2009. Regular Issue and Special Issue of Best Papers presented at CLEI 2008, Santa Fe, Argentina.
-
-\bibitem{mar11a}
-Martinez Canillas, J. and Wong, A. and Rexachs, D. and Luque, E. \emph{Predicting Parallel Applications Performance using Signatures: the Workload Effect}. Computer Systems and Applications (AICCSA), 2011 IEEE/ACS International Conference on. December, 2011, Sharm El-Sheikh, Egypt.
+\bibitem{mar12a}
+Javier Martinez Canillas. \emph{Kbuild: the Linux Kernel Build System}, The Linux Journal, 2012. 
 
 \bibitem{mar11b}
 Martinez Canillas, J. and Wong, A. and Rexachs, D. and Luque, E. \emph{Including the Workload Effect in the Parallel Program Signature}. High Performance Computing and Communications (HPCC), 2011 IEEE International Conference on. September, 2011, Banff, Canada.
 
+\bibitem{mar11a}
+Martinez Canillas, J. and Wong, A. and Rexachs, D. and Luque, E. \emph{Predicting Parallel Applications Performance using Signatures: the Workload Effect}. Computer Systems and Applications (AICCSA), 2011 IEEE/ACS International Conference on. December, 2011, Sharm El-Sheikh, Egypt.
+
+\bibitem{mar08b}
+R. SÃ¡nchez, J. Martinez, B. BarÃ¡n. \emph{Macro-Economic Time-Series Forecasting Using Linear Genetic Programming}, $11^{th}$ Joint Conference on Information Sciences, Dec 15-20, 2008, China. 
+
+\bibitem{mar08a}
+Javier Martinez Canillas, Roberto SÃ¡nchez, BenjamÃ­n BarÃ¡n. \emph{Estimation Models Generation using Linear Genetic Programming}. CLEI Electronic Journal Volume 12 Number 3, December 2009. Regular Issue and Special Issue of Best Papers presented at CLEI 2008, Santa Fe, Argentina.
+
 \end{thebibliography}
-
-%\section{References:}
-
-%\begin{itemize}
-
-%\item Phd. Emilio Luque, Professor, PhD advisor, Universitat Autonoma de Barcelona, Phone/Fax:(+595-21) 371-222. Email: emilio.luque@uab.es.
-
-%\item Phd. Benjamín Barán, Professor, PhD program director, Polytechnic Faculty, National University of Asunción, Phone/Fax:(+595-21) 371-222. Email: bbaran@cnc.una.py.
-
-%\item Phd. Luca Cernuzzi, Dean, Science and Technology Faculty, Catholic University "Nuestra Señora de la Asunción" . Phone: (+595-21) 334.650. Fax: (+595-21) 310-072. Email: lcernuzz@uca.edu.py.
-
-%\end{itemize}
-
-%\section{Additional Information}
-
-%I am an Engineer very passionated about computer science and technology, self-motivated and hard-worker. I love to design and develop computer programs, solve hard problems and learn new algorithms, techniques and tools.
 
 \end{document}
